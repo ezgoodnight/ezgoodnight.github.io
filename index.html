@@ -8,6 +8,17 @@
 <h1>This is another test</h1><br>
 <br>
 <h2>How'm I doin'?</h2><br>
+<br>
+<p id="doingwell"></p>
 
+<script>
+var theAnswer = "<h1>Super good!</h1><br>"
+for (i=0; i < 4 ; i++) {
+    theAnswer += theAnswer;
+}
+
+document.getElementById("doingwell")innerHTML = theAnswer;
+
+</script>
 </body>
 </html>
